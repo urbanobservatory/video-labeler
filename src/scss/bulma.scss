@@ -1,0 +1,74 @@
+//
+// Custom styles for the whole app
+// -> Also configures cherry-picks bulma to only import what's needed
+// -> Only imported once in App.vue
+//
+
+//
+// Import the bits of bulma we need
+//
+@import '~bulma/sass/base/_all';
+
+//
+// Pre-filled bulma imports, so you can only import what is needed
+//
+
+//
+// Elements ~ https://github.com/jgthms/bulma/blob/master/sass/elements/_all.sass
+//
+// @import "~bulma/sass/elements/box.sass";
+@import '~bulma/sass/elements/button.sass';
+@import '~bulma/sass/elements/container.sass';
+// @import "~bulma/sass/elements/content.sass";
+// @import '~bulma/sass/elements/icon.sass';
+// @import "~bulma/sass/elements/image.sass";
+@import '~bulma/sass/elements/notification.sass';
+// @import "~bulma/sass/elements/progress.sass";
+// @import "~bulma/sass/elements/table.sass";
+// @import "~bulma/sass/elements/tag.sass";
+@import '~bulma/sass/elements/title.sass';
+// @import "~bulma/sass/elements/other.sass";
+
+//
+// Form ~ https://github.com/jgthms/bulma/blob/master/sass/form/_all.sass
+//
+// @import '~bulma/sass/form/shared.sass';
+// @import '~bulma/sass/form/input-textarea.sass';
+// @import '~bulma/sass/form/checkbox-radio.sass';
+// @import '~bulma/sass/form/select.sass';
+// @import '~bulma/sass/form/file.sass';
+// @import '~bulma/sass/form/tools.sass';
+
+//
+// Components ~ https://github.com/jgthms/bulma/blob/master/sass/components/_all.sass
+//
+// @import "~bulma/sass/components/breadcrumb.sass";
+// @import "~bulma/sass/components/card.sass";
+// @import "~bulma/sass/components/dropdown.sass";
+@import '~bulma/sass/components/level.sass';
+// @import "~bulma/sass/components/list.sass";
+// @import "~bulma/sass/components/media.sass";
+// @import "~bulma/sass/components/menu.sass";
+// @import "~bulma/sass/components/message.sass";
+// @import "~bulma/sass/components/modal.sass";
+@import '~bulma/sass/components/navbar.sass';
+// @import "~bulma/sass/components/pagination.sass";
+// @import "~bulma/sass/components/panel.sass";
+// @import "~bulma/sass/components/tabs.sass";
+
+//
+// Grid ~ https://github.com/jgthms/bulma/blob/master/sass/grid/_all.sass
+//
+@import '~bulma/sass/grid/columns.sass';
+// @import "~bulma/sass/grid/tiles.sass";
+
+//
+// Layout ~ https://github.com/jgthms/bulma/blob/master/sass/layout/_all.sass
+//
+@import '~bulma/sass/layout/hero.sass';
+@import '~bulma/sass/layout/footer.sass';
+@import '~bulma/sass/layout/section.sass';
+
+//
+// Custom styles
+//

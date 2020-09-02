@@ -1,0 +1,8 @@
+{
+  "taskId": 1,
+  "title": "Identify Animals",
+  "subtitle": "Draw a box around all the animals when the video stops or adjust/remove/add box if any have moved/left the frame from previous image.",
+  "source": "bunny_sample",
+  "frequency": 150,
+  "options": ["option 1", "option 2", "option 3"]
+}

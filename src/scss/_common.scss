@@ -1,0 +1,43 @@
+//
+// Common scss import that loads the variables and mixins for all files
+// > Loaded from vue.config.js
+//
+
+//
+// Customise bulma by setting their variables first
+// -> see https://bulma.io/documentation/customize/variables/
+//
+
+$primary: #292f36;
+$info: #4ecdc4;
+$popup: #ff6b6b;
+
+$body-family: 'Inter', 'sans-serif', 'Segoe UI', Roboto, Helvetica, Arial,
+  sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+$family-monospace: 'SF Mono', Consolas, 'Liberation Mono', Menlo, Courier,
+  monospace;
+
+$title-family: 'Roboto', $body-family;
+$subtitle-family: $title-family;
+$title-weight: 500;
+
+$button-family: $title-family;
+$button-weight: 700;
+
+$radius: 6px;
+$radius-large: 12px;
+
+//
+// Import bulma's utilities
+// -> Including variables, responsive mixins, animations and functions
+//
+@import '~bulma/sass/utilities/_all.sass';
+
+//
+// Import bulma's helpers
+//
+@import '~bulma/sass/helpers/_all.sass';
+
+//
+// Custom mixins
+//
